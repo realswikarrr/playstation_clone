@@ -1,13 +1,37 @@
-export default function CustomButton({ color }) {
+import clsx from "clsx";
+
+export default function CustomButton({ color, text }) {
   console.log(color);
   return (
     <div
-      className={`border-2 box-border border-transparent hover:border-${color}-600  transition ease-in-out rounded-full flex p-0.5`}
+      className={clsx(
+        "border-2",
+        "box-border",
+        "border-transparent",
+        color === "red" && "hover:border-red-600",
+        "transition",
+        "ease-in-out",
+        "rounded-full",
+        "flex",
+        "p-0.5"
+      )}
     >
       <button
-        className={`bg-${color}-500 text-sm font-bold pl-3 pr-3 pt-2 pb-2 rounded-full transition ease-in-out  hover:opacity-80`}
+        className={clsx(
+          color === "red" && "bg-red-500",
+          "text-sm",
+          "font-bold",
+          "pl-3",
+          "pr-3",
+          "pt-3",
+          "pb-3",
+          "rounded-full",
+          "transition",
+          "ease-in-out",
+          "hover:opacity-80"
+        )}
       >
-        Browse the deals
+        {text}
       </button>
     </div>
   );

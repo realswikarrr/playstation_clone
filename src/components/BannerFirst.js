@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 import CustomButton from "@/components/CustomButton";
+import Image from "next/image";
 
 export default function BannerFirst() {
   return (
@@ -11,8 +12,9 @@ export default function BannerFirst() {
       />
       <div class="absolute  text-5xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
         <div className="flex flex-col items-center justify-center">
-          <img
-            className=" w-52"
+          <Image
+            width={200}
+            height={200}
             src="https://gmedia.playstation.com/is/image/SIEPDC/days-of-play-discount-message-logo-01-22may23$en-au?$1200px--t$"
           />
           <h1 className="mt-4 text-4xl tracking-wider font-extralight">
@@ -22,7 +24,7 @@ export default function BannerFirst() {
             Days of Play is back with a bang! Enjoy big discounts on huge PS5 &
             PS4 games, PlayStation Plus subscriptions, and more until June 12th
           </p>
-          <CustomButton color="red" />
+          <CustomButton color="red" text="Browse The Deals" />
         </div>
       </div>
     </div>
