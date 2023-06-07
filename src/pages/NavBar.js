@@ -31,13 +31,13 @@ export default function NavBar() {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke-width="3"
+                  strokeWidth="3"
                   stroke="currentColor"
                   className="w-4 h-4 text-gray-500 font-extrabold"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     d="M19.5 8.25l-7.5 7.5-7.5-7.5"
                   />
                 </svg>
@@ -52,13 +52,13 @@ export default function NavBar() {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke-width="3"
+                  strokeWidth="3"
                   stroke="currentColor"
                   className="w-4 h-4 text-gray-500 font-extrabold"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     d="M19.5 8.25l-7.5 7.5-7.5-7.5"
                   />
                 </svg>
@@ -73,13 +73,13 @@ export default function NavBar() {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke-width="3"
+                  strokeWidth="3"
                   stroke="currentColor"
                   className="w-4 h-4 text-gray-500 font-extrabold"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     d="M19.5 8.25l-7.5 7.5-7.5-7.5"
                   />
                 </svg>
@@ -94,13 +94,13 @@ export default function NavBar() {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke-width="3"
+                  strokeWidth="3"
                   stroke="currentColor"
                   className="w-4 h-4 text-gray-500 font-extrabold"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     d="M19.5 8.25l-7.5 7.5-7.5-7.5"
                   />
                 </svg>
@@ -115,13 +115,13 @@ export default function NavBar() {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke-width="3"
+                  strokeWidth="3"
                   stroke="currentColor"
                   className="w-4 h-4 text-gray-500 font-extrabold"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     d="M19.5 8.25l-7.5 7.5-7.5-7.5"
                   />
                 </svg>
@@ -136,13 +136,13 @@ export default function NavBar() {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke-width="3"
+                  strokeWidth="3"
                   stroke="currentColor"
                   className="w-4 h-4 text-gray-500 font-extrabold"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     d="M19.5 8.25l-7.5 7.5-7.5-7.5"
                   />
                 </svg>
@@ -160,12 +160,12 @@ export default function NavBar() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              class="h-5 w-5"
+              className="h-5 w-5"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               />
             </svg>
           </div>

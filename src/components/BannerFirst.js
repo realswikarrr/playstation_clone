@@ -10,7 +10,7 @@ export default function BannerFirst() {
         src="https://gmedia.playstation.com/is/image/SIEPDC/days-of-play-homepage-hero-desktop-01-en-11may23?$4000px$"
         alt="banner_image"
       />
-      <div class="absolute  text-5xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
+      <div className="absolute  text-5xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
         <div className="flex flex-col items-center justify-center">
           <Image
             width={200}
